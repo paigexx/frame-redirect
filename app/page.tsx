@@ -5,8 +5,8 @@ const frameMetadata = getFrameMetadata({
   buttons: [
       {label: 'Play Beta', action: 'post_redirect'}
   ],
-  image: 'https://redirect-frame.vercel.app/cosmiccowboys.png',
-  post_url: 'https://redirect-frame.vercel.app/api/frame',
+  image: 'https://www.cosmiccowboys.cloud/cosmiccowboys.png',
+  post_url: 'https://www.cosmiccowboys.cloud/api/frame',
 });
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Redirect frame',
     description: 'LFG',
-    images: ['https://redirect-frame.vercel.app/cosmiccowboys.png'],
+    images: ['https://www.cosmiccowboys.cloud/cosmiccowboys.png'],
   },
   other: {
     ...frameMetadata,
