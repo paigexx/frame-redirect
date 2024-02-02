@@ -5,7 +5,7 @@ const frameMetadata = getFrameMetadata({
   buttons: [
       {label: 'Play Beta', action: 'post_redirect'}
   ],
-  image: 'https://frame-redirect.vercel.app/cosmiccowboys.png',
+  image: 'https://gold-mere-anglerfish-964.mypinata.cloud/ipfs/QmTa2TnVpVrkQp8yjjF7ZYTtzYPwj2dgE6HAGxHYqzk6Da/cc.jpg',
   post_url: 'https://frame-redirect.vercel.app/api/frame',
 });
 
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Redirect frame',
     description: 'LFG',
-    images: ['https://frame-redirect.vercel.app/cosmiccowboys.png'],
+    images: ['https://gold-mere-anglerfish-964.mypinata.cloud/ipfs/QmTa2TnVpVrkQp8yjjF7ZYTtzYPwj2dgE6HAGxHYqzk6Da/cc.jpg'],
   },
   other: {
     ...frameMetadata,
